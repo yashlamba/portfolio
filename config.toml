@@ -1,8 +1,10 @@
-baseurl = "/"
+baseurl = "https://yashlamba.github.io/"
 title = "Yash Lamba"
 theme = "hello-friend-ng"
 
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "en" 
+copyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -11,7 +13,7 @@ DefaultContentLanguage = "en"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   
-  homeSubtitle = "Engineering Student with Interests in Software Development"
+  homeSubtitle = "Developer | Engineering Sophomore | Educator"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -28,13 +30,16 @@ DefaultContentLanguage = "en"
   # Default theme "light" or "dark"
   defaultTheme = "dark"
 
-  copyright = ""
+
   readOtherPosts = ""
+
+  [author]
+    name = "Yash Lamba"
 
   [params.logo]
     logoText = "$ cd /home/"
     logoHomeLink = "/"
-    logoColor    = "#67a2c9"
+    logoColor    = "#00FFD3"
 
   [[params.social]]
     name = "email"
@@ -63,7 +68,11 @@ DefaultContentLanguage = "en"
     identifier = "about"
     name       = "About"
     url        = "about"
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"
 
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
+# [taxonomies]
+#   tag      = "tags"
+#   category = "categories"
