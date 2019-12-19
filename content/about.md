@@ -14,7 +14,7 @@ Experienced with multiple programming languages including C++, JAVA, C, C# but m
 
 A good representation of my current interests in development:
 
-{{< image src="http://ghchart.rshah.org/8510d8/yashlamba" alt="Github Graph">}}
+{{< image src="http://ghchart.rshah.org/099FFF/yashlamba" alt="Github Graph">}}
 
 ### Current
 
