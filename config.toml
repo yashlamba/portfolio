@@ -6,7 +6,7 @@ DefaultContentLanguage = "en"
 copyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
 googleAnalytics = "UA-154810488-1"
 disqusShortname = "yashlamba"
-
+enableEmoji     = true
 
 [params]
   dateform        = "Jan 2, 2006"
