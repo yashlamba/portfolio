@@ -72,9 +72,9 @@ enableEmoji     = true
     name       = "About"
     url        = "about"
   [[menu.main]]
-    identifier = "projects"
-    name       = "Projects"
-    url        = "/projects"
+    identifier = "resume"
+    name       = "Resume"
+    url        = "resume.pdf"
 
 # [taxonomies]
 #   tag      = "tags"
