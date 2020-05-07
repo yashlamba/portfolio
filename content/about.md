@@ -10,17 +10,17 @@ Hi, here's a little about me.
 
 ### Interests
 
-Experienced with multiple programming languages including C++, JAVA, C, C# but majorly inclined towards using **Python**. Machine Learning beginner with interests in Artificial Intelligence. Passionate for **teaching** higher mathematics and **programming**.
-
-A good representation of my current interests in development:
-
-{{< image src="http://ghchart.rshah.org/099FFF/yashlamba" alt="Github Graph">}}
+I love solving problems be it related to programming, mathematics or any field that interests me. I am an experienced Python, C++ and Flutter developer but can transition to any programming language easily. I constantly explore new stacks, ideas and reflect them in projects. I am really passionate about **teaching** higher mathematics and **programming**.
 
 ### Current
 
 - Student at **Cluster Innovation Centre, University of Delhi** pursuing Bachelor's in Technology with major **Information Technology** and minor Systems Biology. Though my main struggle always is to get time off college with projects, internships and random stuff.
 
-- Looking for opportunities, project ideas and collaborations. 
+- [**Google Summer of Code 2020**](https://summerofcode.withgoogle.com/) Mentor @ **Python Software Foundation**, mentoring for [DFFML](https://intel.github.io/dffml).
+
+- [**Girlscript Summer of Code 2020**](https://www.gssoc.tech/projects.html) Project Admin for [Simulate](https://cod-ed.github.io/simulate).
+
+- Looking for internship opportunities!
 
 - Always keen to help, hit me up anytime! (I love teaching, a lot!)
 
@@ -32,7 +32,7 @@ A good representation of my current interests in development:
 
 ### Contact
 
-You can connect with me on [LinkedIn](https://linkedin.com/in/yl1) or you can [mail me](mailto:yashlamba2000@gmail.com) directly!
+You can connect with me on [LinkedIn](https://linkedin.com/in/yl1) or you can [mail me](mailto:contact@yashlamba.com) directly!
 
 
 

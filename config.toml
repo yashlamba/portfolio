@@ -42,7 +42,7 @@ enableEmoji     = true
   [params.logo]
     logoText = "$ cd /home/"
     logoHomeLink = "/"
-    logoColor    = "#00FFD3"
+    logoCursorColor = "#00FFD3"
 
   [[params.social]]
     name = "email"
