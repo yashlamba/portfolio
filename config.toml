@@ -1,80 +1,77 @@
 baseurl = "https://yashlamba.github.io/"
-title = "Yash Lamba"
 theme = "hello-friend-ng"
+title = "Yash Lamba"
 
-DefaultContentLanguage = "en" 
+DefaultContentLanguage = "en"
 copyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
-googleAnalytics = "UA-154810488-1"
 disqusShortname = "yashlamba"
-enableEmoji     = true
+enableEmoji = true
+googleAnalytics = "UA-154810488-1"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+dateform = "Jan 2, 2006"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04 -0700"
+dateformShort = "Jan 2"
 
-  
-  homeSubtitle = "Developer | Engineering Sophomore | Educator"
+homeSubtitle = "Developer | Engineering Sophomore | Educator"
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
-  customCSS = ["/style.css"]
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+customCSS = ["/style.css"]
+disableReadOtherPosts = false
 
-  # Metadata mostly used in document's head
-  description = "Homepage and blog for Yash Lamba"
-  keywords = "homepage, blog, science, informatics, development, programming"
-  images = [""]
+# Metadata mostly used in document's head
+description = "Homepage and blog for Yash Lamba"
+images = [""]
+keywords = "homepage, blog, science, informatics, development, programming"
 
-  # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "blogs"
+# Directory name of your blog content (default is `content/posts`)
+contentTypeName = "blogs"
 
+# Default theme "light" or "dark"
+defaultTheme = "dark"
 
-  # Default theme "light" or "dark"
-  defaultTheme = "dark"
+readOtherPosts = ""
 
+[author]
+name = "Yash Lamba"
 
-  readOtherPosts = ""
+[params.logo]
+logoCursorColor = "#00FFD3"
+logoHomeLink = "/"
+logoText = "$ cd /home/"
 
-  [author]
-    name = "Yash Lamba"
+[[params.social]]
+name = "email"
+url = "mailto:yashlamba2000@gmail.com"
 
-  [params.logo]
-    logoText = "$ cd /home/"
-    logoHomeLink = "/"
-    logoCursorColor = "#00FFD3"
+[[params.social]]
+name = "github"
+url = "https://github.com/yashlamba"
 
-  [[params.social]]
-    name = "email"
-    url  = "mailto:yashlamba2000@gmail.com"
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/yl1"
 
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/yashlamba"
+# or
+#
+# path = "/img/your-example-logo.svg"
+# alt = "Your example logo alt text"
 
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/yl1"
-
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
-
-  # And you can even create generic menu
+# And you can even create generic menu
 [menu]
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/blogs"
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about"
-  [[menu.main]]
-    identifier = "resume"
-    name       = "Resume"
-    url        = "resume.pdf"
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blogs"
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "about"
+[[menu.main]]
+identifier = "resume"
+name = "Resume"
+url = "Resume_Yash_Lamba.pdf"
 
 # [taxonomies]
 #   tag      = "tags"
