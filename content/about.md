@@ -1,10 +1,9 @@
-+++
-title = "About"
-date = "2014-04-09"
-aliases = ["about-us","about-hugo","contact"]
-[ author ]
-  name = "Yash Lamba"
-+++
+---
+title: "About"
+author: "Yash Lamba"
+hideMeta: true
+disableShare: true
+---
 
 Hi, here's a little about me.
 
@@ -33,7 +32,3 @@ I love solving problems be it related to programming, mathematics or any field t
 ### Contact
 
 You can connect with me on [LinkedIn](https://linkedin.com/in/yl1) or you can [mail me](mailto:contact@yashlamba.com) directly!
-
-
-
-
