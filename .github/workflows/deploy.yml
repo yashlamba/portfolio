@@ -27,3 +27,4 @@ jobs:
           personal_token: ${{ secrets.PUSH_TOKEN }}
           external_repository: yashlamba/yashlamba.github.io
           publish_branch: master
+          cname: yashlamba.com
