@@ -9,9 +9,13 @@ Hi, here's a little about me.
 
 ### Interests
 
-I love solving problems be it related to programming, mathematics or any field that interests me. I am an experienced Python, C++ and Flutter developer but can transition to any programming language/stack. I constantly explore new stacks, ideas and reflect them in projects.
+I love solving problems be it related to programming, mathematics or any field that interests me. I am experienced with multiple tech stacks and am consistently learning new things. I constantly explore new stacks, ideas and reflect them in projects.
+
+Pandemic got me interested in plants and I have been studying more about botany since!
 
 ### Current
+
+- SDE Intern @ **HackerRank**
 
 - Student at **Cluster Innovation Centre, University of Delhi** pursuing Bachelor's in Technology with major **Information Technology** and minor Systems Biology.
 
@@ -19,7 +23,7 @@ I love solving problems be it related to programming, mathematics or any field t
 
 - Building [Handwrite](https://github.com/cod-ed/handwrite) and [Simulate](https://github.com/cod-ed/simulate).
 
-- Looking for SWE/Machine Learning Research internships.
+- Looking for SWE/Research internships (Jan 2022).
 
 ### Past Experience
 
