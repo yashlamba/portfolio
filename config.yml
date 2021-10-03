@@ -48,7 +48,7 @@ params:
   profileMode:
     enabled: true
     title: Yash Lamba
-    subtitle: "Software developer | Engineering Junior | Educator"
+    subtitle: "Software developer | Engineering Senior | Educator"
     buttons:
       - name: Blog
         url: blogs
