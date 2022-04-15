@@ -31,12 +31,10 @@ menu:
     - name: blog/
       url: blogs/
       weight: 3
-    # - name: Projects
-    #   url: projects/
-    #   weight: 2
-    - name: tags/
-      url: tags
-      weight: 4
+    - name: projects/
+      url: projects/
+      weight: 2
+    
     - name: resume/
       url: Resume_YashLamba.pdf
 
@@ -54,6 +52,8 @@ params:
         url: blogs
       - name: Resume
         url: Resume_YashLamba.pdf
+      - name: Tags
+        url: tags
 
   defaultTheme: auto
   ShowShareButtons: true
