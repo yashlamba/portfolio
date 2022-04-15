@@ -17,7 +17,7 @@ cover:
 
 ---
 
-> This post doesn't explain much about simulate, rather my experience of building. Visit [Simulate docs](https://builtree.org/simulate) docs to know more.
+> This post doesn't explain much about simulate, rather my experience of building it. Visit [Simulate docs](https://builtree.org/simulate) to know more.
 
 Simulate was one of my first major projects. It taught me one of the most important skills of my developer journey, which is Project Based Learning.
 
