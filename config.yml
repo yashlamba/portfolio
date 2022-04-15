@@ -12,7 +12,7 @@ googleAnalytics: UA-154810488-1
 minify:
   disableXML: true
 
-copyright: "&copy; 2020 Yash Lamba"
+copyright: "&copy; 2022 Yash Lamba"
 
 languageName: "English"
 
@@ -48,7 +48,7 @@ params:
   profileMode:
     enabled: true
     title: Yash Lamba
-    subtitle: "Software developer | Engineering Senior | Educator"
+    subtitle: "Software Developer with a knack of teaching!"
     buttons:
       - name: Blog
         url: blogs
