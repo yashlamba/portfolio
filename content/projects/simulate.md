@@ -8,13 +8,7 @@ cover:
     image: "https://raw.githubusercontent.com/builtree/assets/simulate/documentation/SimulateTitle.svg"
     alt: "Simulate Logo"
     relative: false
----
-
-> **GitHub**: [builtree/simulate](https://github.com/builtree/simulate)  
-> **Docs**: [Simulate Docs](https://builtree.org/simulate)  
-> **Live Project**: [Check it Out!](https://builtree.org/simulate/web)  
-> **Thanks**: Saksham, Yashu, Akshansh, Kartikey and other amazing OSS contributors!
-
+weight: 1
 ---
 
 > This post doesn't explain much about simulate, rather my experience of building it. Visit [Simulate docs](https://builtree.org/simulate) to know more.
@@ -30,3 +24,12 @@ We added more simulations, overhauled the UI a couple of times, added ability to
 We also got selected in [GirlScript Summer of Code](https://gssoc.girlscript.tech/) in 2020, 21 and had a great time mentoring people who wanted to contribute to the project. I administered the project in 2020 followed by my Junior Yashu Garg in 2020.
 
 The project was a huge confidence booster for me and I show it off really often. Simulate now has 10 beautiful simulations. Even though I don't actively maintain/build it anymore, I am more than happy to help people who want to contribute/learn/take it further :)
+
+---
+
+> **GitHub**: [builtree/simulate](https://github.com/builtree/simulate)  
+> **Docs**: [Simulate Docs](https://builtree.org/simulate)  
+> **Live Project**: [Check it Out!](https://builtree.org/simulate/web)  
+> **Thanks**: Saksham, Yashu, Akshansh, Kartikey and other amazing OSS contributors!
+
+---

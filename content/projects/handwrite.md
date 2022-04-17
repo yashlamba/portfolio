@@ -1,21 +1,16 @@
 ---
-title: "Handwrite (Python Package)"
+title: "Handwrite CLI"
 description: "Trying to solve the handwritten assignment crisis..."
 ShowReadingTime: false
 author: [""]
+
 disableHLJS: false
 tags: ["project", "python", "open source", "computer vision", "fontography"]
 cover:
     image: "https://raw.githubusercontent.com/builtree/assets/handwrite/logo_white_background.svg"
     alt: "Handwrite Logo"
     relative: false
----
-
-> **GitHub**: [builtree/handwrite](https://github.com/builtree/handwrite)  
-> **Docs**: [Handwrite Docs](https://builtree.org/handwrite)  
-> **Thanks**: Saksham, Aryan and other amazing OSS contributors!  
-> **PyPi**: [![PyPI version](https://img.shields.io/pypi/v/handwrite.svg)](https://pypi.org/project/handwrite) [![Downloads](https://pepy.tech/badge/handwrite)](https://pepy.tech/project/handwrite)
-
+    hidden: true
 ---
 
 {{< figure align=center src="/images/my_writing.png" width="75%" caption="This isn't Handwritten">}}
@@ -53,3 +48,12 @@ I learnt so much building handwrite, few key points:
 -   Handwrite made me so much better at <mark>CI/CD, Test Driven Development, Python Programming and Computer Vision </mark>.
 
 > If you are wondering if it ever worked out for an actual use case? I submitted one assignment using Handwrite and didn't get caught (I doubt whether the teacher even checked), after that didn't have to write yet.
+
+---
+
+> **GitHub**: [builtree/handwrite](https://github.com/builtree/handwrite)  
+> **Docs**: [Handwrite Docs](https://builtree.org/handwrite)  
+> **Thanks**: Saksham, Aryan and other amazing OSS contributors!  
+> **PyPi**: [![PyPI version](https://img.shields.io/pypi/v/handwrite.svg)](https://pypi.org/project/handwrite) [![Downloads](https://pepy.tech/badge/handwrite)](https://pepy.tech/project/handwrite)
+
+---
