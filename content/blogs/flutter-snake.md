@@ -5,7 +5,6 @@ showToc: true
 tags: ["project", "flutter", "game", "beginner", "mini project"]
 cover:
   image: "images/snake_game.gif"
-toc: true
 ---
 
 > **Source**: [Snake Game](https://gist.github.com/yashlamba/7382e974f847b6361cf7159e6890a209)  
