@@ -51,9 +51,17 @@ I learnt so much building handwrite, few key points:
 
 ---
 
-> **GitHub**: [builtree/handwrite](https://github.com/builtree/handwrite)  
-> **Docs**: [Handwrite Docs](https://builtree.org/handwrite)  
-> **Thanks**: Saksham, Aryan and other amazing OSS contributors!  
-> **PyPi**: [![PyPI version](https://img.shields.io/pypi/v/handwrite.svg)](https://pypi.org/project/handwrite) [![Downloads](https://pepy.tech/badge/handwrite)](https://pepy.tech/project/handwrite)
+{{< rawhtml >}}
 
----
+<fieldset>
+  <legend>Links</legend>
+  <ul>
+    <li><b>GitHub</b>: <a href="https://github.com/builtree/handwrite"><code>builtree/handwrite</code></a></li>
+    <li><b>Docs</b>: <a href="https://builtree.org/handwrite"><code>Handwrite Docs</code></a></li>
+    <li><b>Thanks</b>: Saksham, Aryan and other amazing OSS contributors!</li>
+    <li><b>Live</b>: <a href="https://builtree.org/handwrite-web"><code>Live Website</code></a></li>
+    <li><b>PyPI</b>: <a href="https://pepy.tech/project/handwrite"><figure> <img alt="Total downloads for the project" src="https://pepy.tech/badge/handwrite"> </figure></a> <a href="https://pypi.org/project/handwrite"><figure> <img alt="PyPI version" src="https://img.shields.io/pypi/v/handwrite.svg"> </figure></a></li>
+  </ul>
+</fieldset>
+
+{{< /rawhtml >}}

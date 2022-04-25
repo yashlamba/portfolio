@@ -4,11 +4,8 @@ date: 2022-04-24T21:52:20+05:30
 showToc: true
 tags: ["project", "flutter", "game", "beginner", "mini project"]
 cover:
-  image: "images/snake_game.gif"
+    image: "images/snake_game.gif"
 ---
-
-> **Source**: [Snake Game](https://gist.github.com/yashlamba/7382e974f847b6361cf7159e6890a209)  
-> **DartPad**: [Play Snake Game](https://dartpad.dev/?id=7382e974f847b6361cf7159e6890a209)
 
 ## Introduction
 
@@ -127,32 +124,32 @@ class Snake {
 
 Now, we can add a snake object to our `GameState` along with the food, which also can be just a `Point`. In the below code, we introduce some things:
 
-- `random`: To generate random numbers (random food locations).
-- `initGame`: To initialize the Snake object and food location.
-- `foodUpdate`: To update food location.
+-   `random`: To generate random numbers (random food locations).
+-   `initGame`: To initialize the Snake object and food location.
+-   `foodUpdate`: To update food location.
 
 ```dart
 class _GameState extends State<Game> {
 	late Snake snake;
 	late Point<int> food;
 	Random random = Random();
-	
+
 	@override
 	void initState() {
 	  initGame();
 	  super.initState();
 	}
-	
+
 	initGame() {
 	  snake = Snake();
 	  foodUpdate();
 	}
-	
+
 	void foodUpdate() {
 	  food = Point(random.nextInt(Constants.canvasSize ~/ Constants.blockSize),
 	      random.nextInt(Constants.canvasSize ~/ Constants.blockSize));
 	}
-	
+
 	@override
 	Widget build(BuildContext context) {
 	  return Container(
@@ -212,10 +209,10 @@ We can add it to the `initState` which gets called once our game starts. We also
 
 Before implementing this `gameUpdate` function, let’s see what we actually need to update:
 
-- Move the snake in a particular direction
-- Check if the snake’s head overlaps with food
-    - if yes, eat food, add length to the snake, and call `foodUpdate`
-- Check if the snake’s head overlapped with any other body part, if yes, reset the game.
+-   Move the snake in a particular direction
+-   Check if the snake’s head overlaps with food
+    -   if yes, eat food, add length to the snake, and call `foodUpdate`
+-   Check if the snake’s head overlapped with any other body part, if yes, reset the game.
 
 Implementation (added to GameState):
 
@@ -301,9 +298,9 @@ bool pointOnSnake(Point<int> point) {
 Another interesting thing in the above code is `snake[0] = Point((head.x + direction.x) % 50, (head.y + direction.y) % 50);` this line is really interesting on how it handles negative x, y cases (read about mod with negative numbers).
 
 {{< rawhtml >}}
+
   <iframe style="width:100%;height:600px;" src="https://dartpad.dev/embed-flutter.html?id=8b5aa009b69df40291ef5df88316c9f2&split=1&theme=dark"></iframe>
 {{< /rawhtml >}}
-
 
 ## Controls
 
@@ -311,8 +308,8 @@ We are pretty much done now, we just need to be able to control the snake, that�
 
 This part doesn’t need much explanation, just two things are sufficient I guess:
 
-- We are using `RawKeyboardListener` widget with `autofocus` set to true (so that we don’t have to tap it to take control). We’ll also define a `keyHandler` function to handle the events by the listener. (`LogicalKeyboardKey` is imported from `flutter/services.dart`)
-- Two edge/additional cases I would like to address:
+-   We are using `RawKeyboardListener` widget with `autofocus` set to true (so that we don’t have to tap it to take control). We’ll also define a `keyHandler` function to handle the events by the listener. (`LogicalKeyboardKey` is imported from `flutter/services.dart`)
+-   Two edge/additional cases I would like to address:
     1. We don’t allow the snake to go in the direct opposite direction.
     2. We don’t call `setState` because regardless, it would be called within max `50 ms`; We CAN call it but it won’t make much of a difference.
 
@@ -379,11 +376,28 @@ Widget build(BuildContext context) {
 Voila! Our game is ready. Try it below:
 
 {{< rawhtml >}}
+
   <iframe style="width:100%;height:600px;" src="https://dartpad.dev/embed-flutter.html?id=7382e974f847b6361cf7159e6890a209&split=1&theme=dark"></iframe>
 {{< /rawhtml >}}
 
 ## Follow Ups
-- This implementation still has a few IO bugs which can lead to snake dying (hint: the way we load frames and update direction). We can use an input queue to fix that.
-- Haven't implemented score because it's trivial for this game.
-- This project is quite simple and probaly not blog worthy, but I wrote it anyways because, it was fun and I wanted an easy writeup to get out of my writing rut:)
-- A good follow up project would be to implement a multiplayer version of this.
+
+-   This implementation still has a few IO bugs which can lead to snake dying (hint: the way we load frames and update direction). We can use an input queue to fix that.
+-   Haven't implemented score because it's trivial for this game.
+-   A good follow up project would be to implement a multiplayer version of this.
+
+> This project is quite simple and probaly not blog worthy, but I wrote it anyways because, it was fun and I wanted an easy writeup to get out of my writing rut:)
+
+---
+
+{{< rawhtml >}}
+
+<fieldset>
+  <legend>Links</legend>
+  <ul>
+    <li><b>Source</b>: <a href="https://gist.github.com/yashlamba/7382e974f847b6361cf7159e6890a209"><code>Snake Game</code></a></li>
+    <li><b>DartPad</b>: <a href="https://dartpad.dev/?id=7382e974f847b6361cf7159e6890a209"><code>Play Snake Game</code></a></li>
+  </ul>
+</fieldset>
+
+{{< /rawhtml >}}

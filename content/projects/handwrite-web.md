@@ -35,10 +35,17 @@ Building the web app wasn't that tough, Kartik helped a lot and I also got my ha
 
 ---
 
-> **GitHub (Frontend)**: [builtree/handwrite-web](https://github.com/builtree/handwrite-web)  
-> **GitHub (Backend)**: [builtree/handwrite-server](https://github.com/builtree/handwrite-server)  
-> **Docs**: [Handwrite Docs](https://builtree.org/handwrite)  
-> **Thanks**: Saksham, Kartik and other amazing OSS contributors!  
-> **Live**: [Live Website](https://builtree.org/handwrite-web)
+{{< rawhtml >}}
 
----
+<fieldset>
+  <legend>Links</legend>
+  <ul>
+    <li><b>GitHub (Frontend)</b>: <a href="https://github.com/builtree/handwrite-web"><code>builtree/handwrite-web</code></a></li>
+    <li><b>GitHub (Backend)</b>: <a href="https://github.com/builtree/handwrite-server"><code>builtree/handwrite-server</code></a></li>
+    <li><b>Docs</b>: <a href="https://builtree.org/handwrite"><code>Handwrite Docs</code></a></li>
+    <li><b>Thanks</b>: Saksham, Kartik and other amazing OSS contributors!</li>
+    <li><b>Live</b>: <a href="https://builtree.org/handwrite-web"><code>Live Website</code></a></li>
+  </ul>
+</fieldset>
+
+{{< /rawhtml >}}
