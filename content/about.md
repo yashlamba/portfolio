@@ -25,6 +25,8 @@ I like to read both fiction and non-fiction. Pandemic got me interested in plant
 
 ### Past Experience
 
+-   [Polygon Fellow - Class of 2022](/blogs/polygon-fellowship-2022)
+
 -   SDE Intern @ **HackerRank** - Working on improving plagiarism detection, analysis and deployment.
 
 -   Helped Maintain [DFFML](https://intel.github.io/dffml).
