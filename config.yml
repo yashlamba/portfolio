@@ -43,6 +43,7 @@ params:
   env: production
   description: "Yash Lamba - Portfolio"
   author: Yash Lamba
+  images: [""]
 
   profileMode:
     enabled: true
