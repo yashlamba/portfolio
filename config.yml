@@ -34,8 +34,6 @@ menu:
     - name: projects/
       url: projects/
       weight: 2
-    - name: resume/
-      url: Resume_YashLamba.pdf
     - name: search/
       url: search
 
@@ -50,14 +48,14 @@ params:
     title: Yash Lamba
     subtitle: "Software Developer with a knack for teaching!"
     buttons:
-      - name: Blog
-        url: blogs
       - name: Resume
         url: Resume_YashLamba.pdf
       - name: Tags
         url: tags
       - name: Books
         url: books
+      - name: Anime
+        url: https://anime.yashlamba.com
 
   defaultTheme: auto
   ShowShareButtons: true
