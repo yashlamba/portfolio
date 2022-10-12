@@ -3,7 +3,6 @@ title: "CMU - Intro to Database Systems (Fall 2022) - Tagged Notes"
 author: "Yash Lamba"
 hideMeta: true
 disableShare: true
-# draft: true
 ---
 
 # Course Details
