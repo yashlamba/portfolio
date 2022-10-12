@@ -6,6 +6,7 @@ draft: false
 tags: ["python", "byte sized", "cheatsheet"]
 cover:
     image: "images/python-1.svg"
+draft: true
 ---
 
 # Introduction
@@ -185,7 +186,7 @@ a += b # a becomes foo -> foobar, since strings are immutable, the id has to cha
 print(id(a)) # 4472140016
 ```
 
-There are a lot more concepts related to this, more about them coming soon as a separate blog!
+There are a lot more concepts related to this, more about them coming soon as a [separate blog]()!
 
 Let's move to getting user input in Python. We have a simple builtin function for that `input()`. It returns whatever is entered as a string so we use type conversion to use as other types.
 ```python
@@ -196,4 +197,4 @@ b = int(input())
 print(b, type(b)) # 69 <class 'int'>
 ```
 
-That's it for this one, things will get more interesting when start learning about [loops.]()
+That's it for this one, things will get more interesting when start learning about [loops and conditionals.]()
