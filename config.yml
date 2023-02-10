@@ -52,10 +52,8 @@ params:
         url: Resume_YashLamba.pdf
       - name: Tags
         url: tags
-      - name: Books
-        url: books
-      - name: Anime
-        url: https://anime.yashlamba.com
+      - name: Explore
+        url: explore
 
   defaultTheme: auto
   ShowShareButtons: true

@@ -19,5 +19,5 @@ disableShare: true
 - Anime: https://anime.yashlamba.com
 - Books: https://yashlamba.com/books
 - Blogs: https://yashlamba.com/blogs
-- MOOCs: https://yashlamba.com/moocs (WIP)
+- MOOCs: Coming Soon!
 - Plants: Coming Soon!
