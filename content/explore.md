@@ -9,15 +9,15 @@ disableShare: true
 
 ### Projects
 
-- Simulate: https://builtree.org/simulate
-- Handwrite: https://builtree.org/handwrite
-- Snake game: https://yashlamba.com/snake
-- BoxIt: https://boxitdeploy.vercel.app/#/ (Not functional since Heroku removed free tier)
+-   Simulate: https://builtree.org/simulate
+-   Handwrite: https://builtree.org/handwrite
+-   Snake game: https://yashlamba.com/snake
+-   BoxIt: https://boxitdeploy.vercel.app/#/ (Maybe functional? Free servers generally suck)
 
 ### Trackers
 
-- Anime: https://anime.yashlamba.com
-- Books: https://yashlamba.com/books
-- Blogs: https://yashlamba.com/blogs
-- MOOCs: Coming Soon!
-- Plants: Coming Soon!
+-   Anime: https://anime.yashlamba.com
+-   Books: https://yashlamba.com/books
+-   Blogs: https://yashlamba.com/blogs
+-   Food: https://food.yashlamba.com
+-   Plants: Coming Soon!
