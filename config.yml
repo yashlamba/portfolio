@@ -39,7 +39,7 @@ menu:
 
 params:
   env: production
-  description: "Yash Lamba - Portfolio"
+  description: "Portfolio of Yash Lamba - Working as Software Engineer at CERN on Zenodo and InvenioRDM projects. Explore the website for learn more about Yash, blogs etc."
   author: Yash Lamba
   images: ["images/social_preview.png"]
 

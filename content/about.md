@@ -9,21 +9,21 @@ Hi, here's a little about me.
 
 ---
 
-I am a full-stack developer, currently building/breaking/fixing stuff at HackerRank. I have worked with a lot of technologies and am quite fast in learning new things as well. Currently, I am figuring out backend architecture, design, infra scaling and cloud. I have also tinkered with ML/AI (can get a lot of things working) but am not actively improving myself in those.
+I am a software engineer currently working at CERN. I've worked on multiple projects and am fast at learning new things. Currently, I am getting better at software architecture, databases and cloud. I have also worked on building production ready ML/AI systems.
 
 I always find myself in situations where I know the most complicated stuff but end up Googling the simplest things (like how to read csv hehe). I can learn new stuff fairly quickly and build amazing things with it! You can find most of my builds on [GitHub](https://github.com/yashlamba).
 
-Apart from development, I have a passion for teaching mathematics and computer science which I try to do as much as possible whenever I get a chance. I love to watch lectures and have completed over 10 MOOCs from [MIT OpenCourseWare](https://ocw.mit.edu/) (Thank you, MIT).
+Apart from software, I have an active interest in education. I teach mathematics and computer science as much as possible. I love to watch lectures and am always learning new things.
 
-I like to read both fiction and non-fiction. Pandemic got me interested in plants and I have been studying more about botany since!
+I like to read, cook and travel. Pandemic spiked my interest in plants, and I have been studying more about botany since!
 
 ### Current
 
--   Software Development Engineer @ **HackerRank** - Working with the DevEx team in improving candidate experience and plagiarism/proctoring services.
-
--   Student at **Cluster Innovation Centre, University of Delhi** pursuing Bachelors in Technology with major **Information Technology** and minor Systems Biology. (Graduating 2022)
+-   Software Engineer at CERN - Working on [Zenodo](https://zenodo.org/) and [InvenioRDM](https://github.com/inveniosoftware).
 
 ### Past Experience
+
+-   Software Development Engineer @ **HackerRank** - Worked with the DevEx team in improving candidate experience and plagiarism/proctoring services.
 
 -   [Polygon Fellow - Class of 2022](/blogs/polygon-fellowship-2022)
 
@@ -41,6 +41,10 @@ I like to read both fiction and non-fiction. Pandemic got me interested in plant
 
 -   Worked as a Research and Development intern at [**Addmath Research Centre**](http://arcmath.in/). Solved interesting mathematical problems for kids, with kids.
 
+-   Student at **Cluster Innovation Centre, University of Delhi** - Graduated with Bachelors in Technology with major **Information Technology** and minor Systems Biology.
+
 ### Contact
 
 You can connect with me on [LinkedIn](https://linkedin.com/in/yl1)/[Twitter](https://twitter.com/yshlamba) (just DM me, I'll be happy to chat!) or you can [mail me](mailto:contact@yashlamba.com) directly!
+
+Important Links: https://linktr.ee/yashlamba
