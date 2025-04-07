@@ -1,7 +1,8 @@
 baseURL: "https://yashlamba.com/"
 title: "Yash Lamba"
-paginate: 5
 theme: papermod
+pagination:
+  pagerSize: 5
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
