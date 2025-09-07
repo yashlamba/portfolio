@@ -68,8 +68,8 @@ params:
       url: "https://linkedin.com/in/yl1"
     - name: email
       url: "mailto:contact@yashlamba.com"
-    - name: twitter
-      url: "https://twitter.com/yshlamba"
+    - name: youtube
+      url: "https://www.youtube.com/@whereisyash"
 
   # label:
   #   text: "Home"
