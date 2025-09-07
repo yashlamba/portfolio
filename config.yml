@@ -1,5 +1,4 @@
 baseURL: "https://yashlamba.com/"
-title: "Yash Lamba"
 theme: papermod
 pagination:
   pagerSize: 5
@@ -13,7 +12,7 @@ googleAnalytics: UA-154810488-1
 minify:
   disableXML: true
 
-copyright: "&copy; 2022 Yash Lamba"
+copyright: "&copy; 2025 Yash Lamba"
 
 languageName: "English"
 
