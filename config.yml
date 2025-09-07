@@ -46,7 +46,7 @@ params:
   profileMode:
     enabled: true
     title: Yash Lamba
-    subtitle: "Software Developer with a knack for teaching!"
+    subtitle: "Software Engineer @ CERN"
     buttons:
       - name: Resume
         url: Resume_YashLamba.pdf
