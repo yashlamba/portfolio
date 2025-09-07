@@ -9,15 +9,19 @@ disableShare: true
 
 ### Projects
 
--   Simulate: https://builtree.org/simulate
--   Handwrite: https://builtree.org/handwrite
--   Snake game: https://yashlamba.com/snake
--   BoxIt: https://boxitdeploy.vercel.app/#/ (Maybe functional? Free servers generally suck)
+- Simulate: [Beautiful simulations written in Dart](/projects/simulate)
+- Handwrite: [Turn your handwriting into a font](/projects/handwrite)
+- BoxIt: [Was a multiplayer game](https://boxitdeploy.vercel.app/#/) (One day I'll bring the servers back!)
 
 ### Trackers
 
--   Anime: https://anime.yashlamba.com
--   Books: https://yashlamba.com/books
--   Blogs: https://yashlamba.com/blogs
--   Food: https://food.yashlamba.com
--   Plants: Coming Soon!
+- 📚 Books: https://yashlamba.com/books
+- 🖋️ Blogs: https://yashlamba.com/blogs
+- 📺 Anime: https://anime.yashlamba.com
+- 🧑‍🍳 Recipes: Coming Soon!
+- 🥘 Food: https://food.yashlamba.com
+- 🌱 Plants: Coming Soon!
+
+### Fun stuff:
+
+- Snake game: https://yashlamba.com/snake
