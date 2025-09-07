@@ -7,7 +7,7 @@ enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 
-googleAnalytics: UA-154810488-1
+googleAnalytics: G-3MTKQ1LJNX
 
 minify:
   disableXML: true
