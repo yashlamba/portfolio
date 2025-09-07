@@ -9,39 +9,53 @@ Hi, here's a little about me.
 
 ---
 
-I am a software engineer currently working at CERN. I've worked on multiple projects and am fast at learning new things. Currently, I am getting better at software architecture, databases and cloud. I have also worked on building production ready ML/AI systems.
+Namaskar! 🙏
 
-I always find myself in situations where I know the most complicated stuff but end up Googling the simplest things (like how to read csv hehe). I can learn new stuff fairly quickly and build amazing things with it! You can find most of my builds on [GitHub](https://github.com/yashlamba).
+I am Yash, a software engineer at CERN. I am passionate about building software, teaching, interacting with people and learning new things. With
+the power of code, I try to make fun and useful things.
 
-Apart from software, I have an active interest in education. I teach mathematics and computer science as much as possible. I love to watch lectures and am always learning new things.
+Most of my exerience has been working on backend systems. I have built end-to-end AI/ML systems, scalable web applications and worked on creative bio-tech and computer vision projects. I am currently improving my skills in software design, databases and AI.
 
-I like to read, cook and travel. Pandemic spiked my interest in plants, and I have been studying more about botany since!
+I have a keen interest in education. I teach mathematics and computer science to school/university folks when possible.
 
-### Current
+Apart from work, I mostly spend my time [exploring](/explore).
 
--   Software Engineer at CERN - Working on [Zenodo](https://zenodo.org/) and [InvenioRDM](https://github.com/inveniosoftware).
+{{< figure align=center src="/images/oeschinensee_me.jpg" width="400px">}}
 
-### Past Experience
+---
 
--   Software Development Engineer @ **HackerRank** - Worked with the DevEx team in improving candidate experience and plagiarism/proctoring services.
+**Current Role**
 
--   [Polygon Fellow - Class of 2022](/blogs/polygon-fellowship-2022)
+- Software Engineer at [CERN](https://home.cern) - Working on [Zenodo](https://zenodo.org/) and [InvenioRDM](https://github.com/inveniosoftware).
+  - Engineered core InvenioRDM features (e.g., [background jobs](https://github.com/inveniosoftware/invenio-jobs), subcommunities) utilized by hundreds of open science instances globally.
+  - Working on the core AI infrastructure, prioritising extensibility, speed and cost for multiple AI use cases on Zenodo.
+  - Collaborating with a global team of partners as a core developer for the InvenioRDM framework.
 
--   SDE Intern @ **HackerRank** - Working on improving plagiarism detection, analysis and deployment.
+{{< details summary="Past Experience">}}
 
--   Helped Maintain [DFFML](https://intel.github.io/dffml).
+- Software Development Engineer @ **HackerRank** - Worked with the DevEx team in improving candidate experience and plagiarism/proctoring services.
 
--   [**Google Summer of Code 2020**](https://summerofcode.withgoogle.com/) Mentor @ **Python Software Foundation**, mentored for [DFFML](https://intel.github.io/dffml).
+- [Polygon Fellow - Class of 2022](/blogs/polygon-fellowship-2022)
 
--   Did some research work, find out more [here](https://scholar.google.com/citations?user=XkWAxoMAAAAJ&hl=en).
+- SDE Intern @ **HackerRank** - Working on improving plagiarism detection, analysis and deployment.
 
--   [**Girlscript Summer of Code 2020**](https://www.gssoc.tech/projects.html) Project Admin for [Simulate](https://cod-ed.github.io/simulate).
+- Helped Maintain [DFFML](https://intel.github.io/dffml).
 
--   Student Developer under [**Google Summer of Code 2019**](https://summerofcode.withgoogle.com/) with **Python Software Foundation**. Worked on a [project](https://summerofcode.withgoogle.com/archive/2019/projects/5429236515471360/) under Intel.
+- [**Google Summer of Code 2020**](https://summerofcode.withgoogle.com/) Mentor @ **Python Software Foundation**, mentored for [DFFML](https://intel.github.io/dffml).
 
--   Worked as a Research and Development intern at [**Addmath Research Centre**](http://arcmath.in/). Solved interesting mathematical problems for kids, with kids.
+- Did some research work, find out more [here](https://scholar.google.com/citations?user=XkWAxoMAAAAJ&hl=en).
 
--   Student at **Cluster Innovation Centre, University of Delhi** - Graduated with Bachelors in Technology with major **Information Technology** and minor Systems Biology.
+- [**Girlscript Summer of Code 2020**](https://www.gssoc.tech/projects.html) Project Admin for [Simulate](https://cod-ed.github.io/simulate).
+
+- Student Developer under [**Google Summer of Code 2019**](https://summerofcode.withgoogle.com/) with **Python Software Foundation**. Worked on a [project](https://summerofcode.withgoogle.com/archive/2019/projects/5429236515471360/) under Intel.
+
+- Worked as a Research and Development intern at [**Addmath Research Centre**](http://arcmath.in/). Solved interesting mathematical problems for kids, with kids.
+
+- Student at **Cluster Innovation Centre, University of Delhi** - Graduated with Bachelors in Technology with major **Information Technology** and minor Systems Biology.
+
+{{< /details >}}
+
+---
 
 ### Contact
 
