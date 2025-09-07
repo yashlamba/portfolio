@@ -80,12 +80,10 @@ params:
   #   google:
   #     SiteVerificationTag: "XYZabc"
 
-  # assets:
-  #   favicon: "<link / abs url>"
-  #   favicon16x16: "<link / abs url>"
-  #   favicon32x32: "<link / abs url>"
-  #   apple_touch_icon: "<link / abs url>"
-  #   safari_pinned_tab: "<link / abs url>"
+  assets:
+    favicon: "assets/favicon.svg"
+    favicon16x16: "assets/favicon.svg"
+    favicon32x32: "assets/favicon.svg"
 
   # cover:
   #   hidden: true # hide everywhere but not in structured data
