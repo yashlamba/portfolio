@@ -14,7 +14,7 @@ Namaskar! 🙏
 I am Yash, a software engineer at CERN. I am passionate about building software, teaching, interacting with people and learning new things. With
 the power of code, I try to make fun and useful things.
 
-Most of my exerience has been working on backend systems. I have built end-to-end AI/ML systems, scalable web applications and worked on creative bio-tech and computer vision projects. I am currently improving my skills in software design, databases and AI.
+Most of my experience has been working on backend systems. I have built end-to-end AI/ML systems, scalable web applications and worked on creative bio-tech and computer vision projects. I am currently improving my skills in software design, databases and AI.
 
 I have a keen interest in education. I teach mathematics and computer science to school/university folks when possible.
 
