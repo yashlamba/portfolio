@@ -3,28 +3,28 @@ name: Push to yashlamba.github.io
 on: [workflow_dispatch, push] # Set a branch to deploy
 
 jobs:
-    deploy:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v2
-              with:
-                  submodules: true # Fetch Hugo themes (true OR recursive)
-                  fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
-            - name: Setup Hugo
-              uses: peaceiris/actions-hugo@v2
-              with:
-                  hugo-version: "latest"
-                  # extended: true
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "latest"
+          # extended: true
 
-            - name: Build
-              run: hugo --minify
+      - name: Build
+        run: hugo --minify
 
-            - name: Deploy
-              uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
 
-              with:
-                  personal_token: ${{ secrets.PUSH_TOKEN }}
-                  external_repository: yashlamba/yashlamba.github.io
-                  publish_branch: master
-                  cname: yashlamba.com
+        with:
+          deploy_key: ${{ secrets.DEPLOY_KEY }}
+          external_repository: yashlamba/yashlamba.github.io
+          publish_branch: master
+          cname: yashlamba.com
