@@ -5,13 +5,13 @@ ShowReadingTime: false
 author: [""]
 tags: ["project", "flutter", "open source", "algorithms", "mathematics"]
 cover:
-    image: "https://raw.githubusercontent.com/builtree/assets/simulate/documentation/SimulateTitle.svg"
-    alt: "Simulate Logo"
-    relative: false
+  image: "https://raw.githubusercontent.com/builtree/assets/simulate/documentation/SimulateTitle.svg"
+  alt: "Simulate Logo"
+  relative: false
 weight: 1
 ---
 
-> This post doesn't explain much about simulate, rather my experience of building it. Visit [Simulate docs](https://builtree.org/simulate) to know more.
+> This post doesn't explain much about simulate, rather my experience of building it. Visit [Simulate docs](https://yashlamba.com/simulate) to know more.
 
 Simulate was one of my first major projects. It taught me one of the most important skills of my developer journey, which is Project Based Learning.
 
@@ -27,9 +27,9 @@ The project was a huge confidence booster for me and I show it off really often.
 
 ---
 
-> **GitHub**: [builtree/simulate](https://github.com/builtree/simulate)  
-> **Docs**: [Simulate Docs](https://builtree.org/simulate)  
-> **Live Project**: [Check it Out!](https://builtree.org/simulate/web)  
+> **GitHub**: [yashlamba/simulate](https://github.com/yashlamba/simulate) 
+> **Docs**: [Simulate Docs](https:/yashlamba.com/simulate) 
+> **Live Project**: [Check it Out!](https://yashlamba.com/simulate/web) 
 > **Thanks**: Saksham, Yashu, Akshansh, Kartikey and other amazing OSS contributors!
 
 ---

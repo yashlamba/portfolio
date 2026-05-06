@@ -7,10 +7,10 @@ author: [""]
 disableHLJS: false
 tags: ["project", "python", "open source", "computer vision", "fontography"]
 cover:
-    image: "https://raw.githubusercontent.com/builtree/assets/handwrite/logo_white_background.svg"
-    alt: "Handwrite Logo"
-    relative: false
-    hidden: true
+  image: "https://raw.githubusercontent.com/builtree/assets/handwrite/logo_white_background.svg"
+  alt: "Handwrite Logo"
+  relative: false
+  hidden: true
 ---
 
 {{< figure align=center src="/images/my_writing.png" width="75%" caption="This isn't Handwritten">}}
@@ -21,7 +21,7 @@ This lead to a discussion between a couple of my friends and we thought of build
 
 So the way Handwrite works is:
 
-1. You print the [form](https://github.com/builtree/handwrite/raw/dev/handwrite_sample.pdf) that we made.
+1. You print the [form](https://github.com/yashlamba/handwrite/raw/dev/handwrite_sample.pdf) that we made.
 
 2. Fill out your sample like below.
 
@@ -41,13 +41,13 @@ Not going to explain much since we have documented it quite well, but below imag
 
 I learnt so much building handwrite, few key points:
 
--   Anything you can imagine building in tech, is possible 99% of the times.
--   Testing is very important, writing unit tests for Handwrite was really helpful in the later stages when we had to do major refactors.
--   You can't always do everything, collaboration is key.
--   Solving problems around you make 10x better projects than regular UI clones. I discuss about Handwrite in every project based interview and interviewers always take so much interest!
--   Handwrite made me so much better at <mark>CI/CD, Test Driven Development, Python Programming and Computer Vision </mark>.
+- Anything you can imagine building in tech, is possible 99% of the times.
+- Testing is very important, writing unit tests for Handwrite was really helpful in the later stages when we had to do major refactors.
+- You can't always do everything, collaboration is key.
+- Solving problems around you make 10x better projects than regular UI clones. I discuss about Handwrite in every project based interview and interviewers always take so much interest!
+- Handwrite made me so much better at <mark>CI/CD, Test Driven Development, Python Programming and Computer Vision </mark>.
 
-> If you are wondering if it ever worked out for an actual use case? I submitted one assignment using Handwrite and didn't get caught (I doubt whether the teacher even checked), after that didn't have to write yet.
+> If you are wondering if it ever worked out for an actual use case? I submitted one assignment using Handwrite and it didn't get noticed (I doubt whether the teacher even checked), after that didn't have to write yet.
 
 ---
 
@@ -56,10 +56,10 @@ I learnt so much building handwrite, few key points:
 <fieldset>
   <legend>Links</legend>
   <ul>
-    <li><b>GitHub</b>: <a href="https://github.com/builtree/handwrite"><code>builtree/handwrite</code></a></li>
-    <li><b>Docs</b>: <a href="https://builtree.org/handwrite"><code>Handwrite Docs</code></a></li>
+    <li><b>GitHub</b>: <a href="https://github.com/yashlamba/handwrite"><code>yashlamba/handwrite</code></a></li>
+    <li><b>Docs</b>: <a href="https://yashlamba.com/handwrite"><code>Handwrite Docs</code></a></li>
+    <li><b>Use Handwrite Web</b>: <a href="https://handwrite-web.yashlamba.com"><code>https://handwrite-web.yashlamba.com</code></a></li>
     <li><b>Thanks</b>: Saksham, Aryan and other amazing OSS contributors!</li>
-    <li><b>Live</b>: <a href="https://builtree.org/handwrite-web"><code>Live Website</code></a></li>
     <li><b>PyPI</b>: <a href="https://pepy.tech/project/handwrite"><figure> <img alt="Total downloads for the project" src="https://pepy.tech/badge/handwrite"> </figure></a> <a href="https://pypi.org/project/handwrite"><figure> <img alt="PyPI version" src="https://img.shields.io/pypi/v/handwrite.svg"> </figure></a></li>
   </ul>
 </fieldset>
