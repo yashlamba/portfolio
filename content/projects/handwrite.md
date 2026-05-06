@@ -45,7 +45,7 @@ I learnt so much building handwrite, few key points:
 - Testing is very important, writing unit tests for Handwrite was really helpful in the later stages when we had to do major refactors.
 - You can't always do everything, collaboration is key.
 - Solving problems around you make 10x better projects than regular UI clones. I discuss about Handwrite in every project based interview and interviewers always take so much interest!
-- Handwrite made me so much better at <mark>CI/CD, Test Driven Development, Python Programming and Computer Vision </mark>.
+- Handwrite made me so much better at **CI/CD, Test Driven Development, Python Programming and Computer Vision**.
 
 > If you are wondering if it ever worked out for an actual use case? I submitted one assignment using Handwrite and it didn't get noticed (I doubt whether the teacher even checked), after that didn't have to write yet.
 

@@ -56,7 +56,7 @@ ShowReadingTime: false
         - INSERT INTO
         - DBMS react differently when errors occur, some treat whole insert as a transaction and undo everything in case of an error while others stop at the error but persist the older inserts
         - ORDER BY (column name/output index) [ASC/DESC]
-        - LIMIT <count> OFFSET [offset]
+        - `LIMIT <count> OFFSET [offset]`
     - Nested Queries
         - IN
         - ALL
