@@ -2,7 +2,6 @@
 title: "Byte sized Python - Basics"
 date: 2022-09-09T21:52:20+05:30
 showToc: false
-draft: false
 tags: ["python", "byte sized", "cheatsheet"]
 cover:
     image: "images/python-1.svg"
