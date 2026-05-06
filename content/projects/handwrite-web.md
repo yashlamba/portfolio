@@ -40,7 +40,7 @@ Building the web app wasn't that tough, Kartik helped a lot and I also got my ha
 <fieldset>
   <legend>Links</legend>
   <ul>
-    <li><b>Use Handwrite Web</b>: <a href="https://handwrite-web.yashlamba.com"><code>https://handwrite-web.yashlamba.com</code></a></li>
+    <li><b>Use Handwrite Web</b>: <a href="https://yashlamba.com/handwrite-web/"><code>https://yashlamba.com/handwrite-web/</code></a></li>
     <li><b>GitHub (Frontend)</b>: <a href="https://github.com/yashlamba/handwrite-web"><code>yashlamba/handwrite-web</code></a></li>
     <li><b>GitHub (Backend)</b>: <a href="https://github.com/yashlamba/handwrite-server"><code>yashlamba/handwrite-server</code></a></li>
     <li><b>Docs</b>: <a href="https://yashlamba.com/handwrite"><code>Handwrite Docs</code></a></li>

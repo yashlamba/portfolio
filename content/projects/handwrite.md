@@ -58,7 +58,7 @@ I learnt so much building handwrite, few key points:
   <ul>
     <li><b>GitHub</b>: <a href="https://github.com/yashlamba/handwrite"><code>yashlamba/handwrite</code></a></li>
     <li><b>Docs</b>: <a href="https://yashlamba.com/handwrite"><code>Handwrite Docs</code></a></li>
-    <li><b>Use Handwrite Web</b>: <a href="https://handwrite-web.yashlamba.com"><code>https://handwrite-web.yashlamba.com</code></a></li>
+    <li><b>Use Handwrite Web</b>: <a href="https://yashlamba.com/handwrite-web/"><code>https://yashlamba.com/handwrite-web/</code></a></li>
     <li><b>Thanks</b>: Saksham, Aryan and other amazing OSS contributors!</li>
     <li><b>PyPI</b>: <a href="https://pepy.tech/project/handwrite"><figure> <img alt="Total downloads for the project" src="https://pepy.tech/badge/handwrite"> </figure></a> <a href="https://pypi.org/project/handwrite"><figure> <img alt="PyPI version" src="https://img.shields.io/pypi/v/handwrite.svg"> </figure></a></li>
   </ul>
