@@ -21,7 +21,7 @@ cover:
   relative: false
 ---
 
-We built Handwrite as a CLI App initially [(Read More)](/projects/handwrite.md). It was great but a little hard to explain and use through just a CLI app. I also had to show a software project in college so we decided to take this up. I connected with my friend Kartik who was interested in Frontend development and he was in. He built the initial web app while me and Saksham worked on the server.
+We built Handwrite as a CLI App initially [(Read More)](/projects/handwrite/). It was great but a little hard to explain and use through just a CLI app. I also had to show a software project in college so we decided to take this up. I connected with my friend Kartik who was interested in Frontend development and he was in. He built the initial web app while me and Saksham worked on the server.
 
 Building the server was very tricky, since we were making calls to some C libraries, we couldn't just host a Python server. We needed a complete linux environment for which Docker was perfect. But this didn't solve all the problems. Below are the problems (which I remember) one by one:
 

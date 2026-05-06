@@ -11,7 +11,7 @@ cover:
 weight: 1
 ---
 
-> This post doesn't explain much about simulate, rather my experience of building it. Visit [Simulate docs](https://yashlamba.com/simulate) to know more.
+> This post doesn't explain much about simulate, rather my experience of building it. Visit [Simulate docs](https://yashlamba.com/simulate) to know more or [try it out](https://yashlamba.com/simulate/web).
 
 Simulate was one of my first major projects. It taught me one of the most important skills of my developer journey, which is Project Based Learning.
 
@@ -27,9 +27,16 @@ The project was a huge confidence booster for me and I show it off really often.
 
 ---
 
-> **GitHub**: [yashlamba/simulate](https://github.com/yashlamba/simulate) 
-> **Docs**: [Simulate Docs](https:/yashlamba.com/simulate) 
-> **Live Project**: [Check it Out!](https://yashlamba.com/simulate/web) 
-> **Thanks**: Saksham, Yashu, Akshansh, Kartikey and other amazing OSS contributors!
+{{< rawhtml >}}
 
----
+<fieldset>
+  <legend>Links</legend>
+  <ul>
+    <li><b>Live Project</b>: <a href="https://yashlamba.com/simulate/web"><code>Check it Out!</code></a></li>
+    <li><b>GitHub</b>: <a href="https://github.com/yashlamba/simulate"><code>yashlamba/simulate</code></a></li>
+    <li><b>Docs</b>: <a href="https://yashlamba.com/simulate"><code>Simulate Docs</code></a></li>
+    <li><b>Thanks</b>: Saksham, Kartik and other amazing OSS contributors!</li>
+  </ul>
+</fieldset>
+
+{{< /rawhtml >}}
