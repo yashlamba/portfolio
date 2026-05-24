@@ -25,7 +25,7 @@ project_url: "https://example.com/live-project"
 project_card_url: "/blogs/project-writeup/" # optional
 repo_url: "https://github.com/user/repo" # optional
 project_direct: true # optional
-project_image: "/images/project-preview.png" # optional; falls back to cover.image
+project_image: "/images/project-preview.png" # optional; falls back to cover.image, then a text placeholder
 tags: ["project", "python", "react"]
 cover:
   image: "/images/project-preview.png"

@@ -46,6 +46,20 @@
     padding: 22px;
 }
 
+.project-card-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--code-bg);
+}
+
+.project-card-placeholder span {
+    color: var(--secondary);
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
 .project-card-body {
     display: flex;
     flex-direction: column;
