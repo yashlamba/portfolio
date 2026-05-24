@@ -43,6 +43,10 @@
     <div class="project-card-media">
       <img src="{{ . | safeURL }}" alt="{{ $project.Params.cover.alt | default (printf "%s preview" $project.LinkTitle) }}" loading="lazy">
     </div>
+    {{- else }}
+    <div class="project-card-media project-card-placeholder" aria-hidden="true">
+      <span>{{ substr $project.LinkTitle 0 3 }}</span>
+    </div>
     {{- end }}
     <div class="project-card-body">
       <div class="project-card-copy">
