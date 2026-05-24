@@ -1,6 +1,11 @@
 ---
 title: "Handwrite Web"
 description: "Fitting Handwrite in a web app."
+project_cta: "Try It"
+project_url: "https://yashlamba.com/handwrite-web/"
+repo_url: "https://github.com/yashlamba/handwrite-web"
+project_image: "/images/handwrite-web.png"
+weight: 20
 ShowReadingTime: false
 author: [""]
 disableHLJS: false

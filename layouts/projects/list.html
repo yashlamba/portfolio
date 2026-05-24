@@ -1,0 +1,72 @@
+{{- define "main" }}
+
+<header class="page-header project-page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- $pages := .RegularPages.ByWeight }}
+
+<section class="project-grid" aria-label="Projects">
+  {{- range $pages }}
+  {{- $project := . }}
+  {{- $image := "" }}
+  {{- with .Params.project_image }}
+    {{- $image = . }}
+  {{- else }}
+    {{- with .Params.cover.image }}
+      {{- $image = . }}
+    {{- end }}
+  {{- end }}
+  {{- $primaryURL := .Params.project_url | default .RelPermalink }}
+  {{- $primaryLabel := .Params.project_cta | default "Try" }}
+  {{- $cardURL := .Params.project_card_url | default .RelPermalink }}
+  {{- if and .Params.project_direct (not .Params.project_card_url) }}
+    {{- $cardURL = $primaryURL }}
+  {{- end }}
+  <article class="project-card">
+    <a class="project-card-link" href="{{ $cardURL | safeURL }}" aria-label="Open {{ .LinkTitle | plainify }}"></a>
+    {{- with $image }}
+    <div class="project-card-media">
+      <img src="{{ . | safeURL }}" alt="{{ $project.Params.cover.alt | default (printf "%s preview" $project.LinkTitle) }}" loading="lazy">
+    </div>
+    {{- end }}
+    <div class="project-card-body">
+      <div class="project-card-copy">
+        <h2>{{ .LinkTitle }}</h2>
+        {{- with .Description }}
+        <p>{{ . }}</p>
+        {{- end }}
+      </div>
+      {{- with .Params.tags }}
+      <ul class="project-tags" aria-label="{{ $project.LinkTitle | plainify }} tags">
+        {{- range first 4 . }}
+        <li>{{ . }}</li>
+        {{- end }}
+      </ul>
+      {{- end }}
+      <div class="project-card-actions">
+        <a class="project-action project-action-primary" href="{{ $primaryURL | safeURL }}">{{ $primaryLabel }}</a>
+        {{- with .Params.repo_url }}
+        <a class="project-action" href="{{ . | safeURL }}">Code</a>
+        {{- end }}
+      </div>
+    </div>
+  </article>
+  {{- end }}
+</section>
+
+{{- end }}

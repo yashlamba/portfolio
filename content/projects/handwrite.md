@@ -1,6 +1,10 @@
 ---
 title: "Handwrite CLI"
 description: "Trying to solve the handwritten assignment crisis..."
+project_cta: "Try It"
+project_url: "https://yashlamba.com/handwrite-web/"
+repo_url: "https://github.com/yashlamba/handwrite"
+weight: 30
 ShowReadingTime: false
 author: [""]
 

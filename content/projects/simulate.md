@@ -1,6 +1,9 @@
 ---
 title: "Simulate"
 description: "Story of learning flutter through a fun project!"
+project_cta: "Try It"
+project_url: "https://yashlamba.com/simulate/web"
+repo_url: "https://github.com/yashlamba/simulate"
 ShowReadingTime: false
 author: [""]
 tags: ["project", "flutter", "open source", "algorithms", "mathematics"]
@@ -8,7 +11,7 @@ cover:
   image: "https://raw.githubusercontent.com/builtree/assets/simulate/documentation/SimulateTitle.svg"
   alt: "Simulate Logo"
   relative: false
-weight: 1
+weight: 10
 ---
 
 > This post doesn't explain much about simulate, rather my experience of building it. Visit [Simulate docs](https://yashlamba.com/simulate) to know more or [try it out](https://yashlamba.com/simulate/web).
