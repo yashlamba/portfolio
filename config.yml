@@ -45,6 +45,10 @@ params:
 
   profileMode:
     enabled: true
+    imageUrl: images/display_picture.jpg
+    imageTitle: Yash Lamba
+    imageWidth: 160
+    imageHeight: 160
     title: Yash Lamba
     subtitle: "Software Engineer @ CERN"
     buttons:
