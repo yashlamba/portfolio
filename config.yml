@@ -34,6 +34,9 @@ menu:
     - name: projects/
       url: projects/
       weight: 2
+    - name: learn/
+      url: learn/
+      weight: 3
     - name: search/
       url: search
 

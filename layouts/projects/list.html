@@ -20,7 +20,7 @@
 
 {{- $pages := .RegularPages.ByWeight }}
 
-<section class="project-grid" aria-label="Projects">
+<section class="project-grid" aria-label="{{ .Title | plainify }}">
   {{- range $pages }}
   {{- $project := . }}
   {{- $image := "" }}
