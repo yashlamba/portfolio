@@ -1,5 +1,11 @@
 # portfolio
 
+## Blog and notes
+
+Write articles and short notes as regular posts in `content/blogs/`.
+Use `cover.image` for an optional image on the left of the card. Omit `cover`
+for a text-only tile. The list uses the theme's standard pagination.
+
 ## Projects grid
 
 The `/projects/` page is rendered by `layouts/projects/list.html`.

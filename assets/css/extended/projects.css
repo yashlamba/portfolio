@@ -134,11 +134,11 @@
     border-color: var(--primary);
 }
 
-.dark .project-card-media {
+[data-theme="dark"] .project-card-media {
     background: rgb(245, 245, 245);
 }
 
-.dark .project-action-primary {
+[data-theme="dark"] .project-action-primary {
     color: rgb(29, 30, 32);
 }
 
