@@ -1,0 +1,27 @@
+{{- $html := .Page.RenderString (dict "display" "block") .Inner -}}
+{{- $basePath := (urls.Parse site.BaseURL).Path -}}
+{{- /* The theme has already resolved asset and page-bundle image URLs. */ -}}
+{{- range findRE `<img\s[^>]*>` $html -}}
+  {{- $tag := . -}}
+  {{- with findRESubmatch `\ssrc="([^"]+)"` $tag -}}
+  {{- $url := urls.Parse (htmlUnescape (index (index . 0) 1)) -}}
+  {{- if and (not $url.IsAbs) (not $url.Host) -}}
+    {{- $assetPath := strings.TrimPrefix $basePath $url.Path -}}
+    {{- $bundlePath := strings.TrimPrefix $.Page.RelPermalink $url.Path -}}
+    {{- with or ($.Page.Resources.Get $bundlePath) (resources.Get $assetPath) -}}
+      {{- if and (reflect.IsImageResourceProcessable .) (ne .MediaType.SubType "gif") -}}
+        {{- $image := .Filter images.AutoOrient -}}
+        {{- $size := math.Min 480 (math.Min $image.Width $image.Height) | int -}}
+        {{- $thumbnail := $image.Fill (printf "%dx%d center webp q75" $size $size) -}}
+        {{- $zoom := $image.Fit "1600x1600 webp q82" -}}
+        {{- $attributes := printf `src="%s" data-full-size="%s" width="%d" height="%d" decoding="async"` $thumbnail.RelPermalink $zoom.RelPermalink $thumbnail.Width $thumbnail.Height -}}
+        {{- $optimized := replaceRE `\ssrc="[^"]*"` (printf " %s" $attributes) $tag -}}
+        {{- $html = replace $html $tag $optimized -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- end -}}
+{{- end -}}
+<div class="inline-gallery" aria-label="Image gallery">
+  {{ $html | safeHTML }}
+</div>
