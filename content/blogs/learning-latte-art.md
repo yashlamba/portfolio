@@ -25,4 +25,8 @@ Since then I have made some decent latte art. I will use this page as my gallery
 ![Latte art practice on 12 November 2026](latte-art/2026-11-12-2.jpg)
 ![Latte art practice on 13 November 2026](latte-art/2026-11-13.jpg)
 ![Latte art practice on 16 November 2026](latte-art/2026-11-16.jpg)
+![Latte art practice on 17 November 2026](latte-art/2026-11-17.jpg)
+![Latte art practice on 18 November 2026](latte-art/2026-11-18.jpg)
+![Latte art practice on 19 November 2026](latte-art/2026-11-19.jpg)
+![Latte art practice on 24 November 2026](latte-art/2026-11-24.jpg)
 {{< /inline-gallery >}}
