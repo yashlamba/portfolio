@@ -37,6 +37,9 @@ menu:
     - name: learn/
       url: learn/
       weight: 3
+    - name: photo/
+      url: photo/
+      weight: 4
     - name: search/
       url: search
 

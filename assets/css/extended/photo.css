@@ -1,0 +1,8 @@
+.post-content img[src$="#fit-photo"] {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: max(120px, calc(100svh - var(--header-height) - var(--footer-height) - 260px));
+    margin: 1rem auto;
+    object-fit: contain;
+}
